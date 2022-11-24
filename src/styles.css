@@ -7,11 +7,22 @@
   width: 0;
   height: 0;
   position: absolute;
+  left: 10px;
+  /* top: 0; */
+  bottom: 10px;
+
+  border-right: 75vw solid transparent;
+  border-bottom: 100vh solid #cde4cf;
+}
+.shadow {
+  width: 0;
+  height: 0;
+  position: absolute;
   left: 0;
   top: 0;
 
   border-right: 75vw solid transparent;
-  border-bottom: 100vh solid #cde4cf;
+  border-bottom: 100vh solid #919e99;
 }
 
 .item1 {
@@ -19,9 +30,9 @@
   top: 10vh;
   left: -32.7%;
 
-  animation: shiftRight1 1s;
+  /* animation: shiftRight1 1s;
   animation-timing-function: cubic-bezier(0.15, 0.72, 0.58, 0.99);
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 .item2 {
@@ -29,9 +40,9 @@
   top: 30vh;
   left: 0;
 
-  animation: shiftRight2 1.6s;
+  /* animation: shiftRight2 1.6s;
   animation-timing-function: cubic-bezier(0.15, 0.72, 0.58, 0.99);
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 .item3 {
@@ -39,9 +50,9 @@
   top: 37vh;
   left: -1vw;
 
-  animation: shiftRight3 1.3s;
+  /* animation: shiftRight3 1.3s;
   animation-timing-function: cubic-bezier(0.15, 0.72, 0.58, 0.99);
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 .laptop {
